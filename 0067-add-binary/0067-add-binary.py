@@ -3,4 +3,4 @@ class Solution:
         g=int(a,2) + int(b,2)
         g=bin(g)[2:]
         g=str(g)
-        return f"{g}"
+        return g
