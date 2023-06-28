@@ -4,8 +4,7 @@ class NumArray:
         self.data=nums.copy()      
 
     def sumRange(self, left: int, right: int) -> int:
-        if left<=right:
-            return sum(self.data[left:right+1])
+        return sum(self.data[left:right+1])
                    
 
 
